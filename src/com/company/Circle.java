@@ -1,9 +1,9 @@
 package com.company;
 
-public class Ciircle {
+public class Circle {
     private static final double PI = Math.PI;
 
-    public Ciircle() {
+    public Circle() {
     }
 
     static void area(int radius) {
@@ -11,7 +11,7 @@ public class Ciircle {
 
     }
 
-    static void circumferen(int radius) {
+    static void circumference(int radius) {
         System.out.println(PI * 2 * radius);
 
     }
